@@ -1,0 +1,94 @@
+
+/*in questa sezione ho definito il font del testo della pagina*/
+/*Ho usato il selettore avanzato per selezionare tutti gli elementi*/
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*in questa sezione ho impostato lo sfondo della pagina */
+body{
+    margin-top: 22px;                           /*margini*/
+    background-image: url(background.jpg);      /*link dell'immagine*/
+    background-repeat: no-repeat;               /*immagine non ripetuta*/
+    background-size: cover;                     /*dimensione dell'immagine e sua formattazione*/
+}
+
+/*in questa sezione ho impostato la barra di navigazione */
+nav{
+    margin-top: 6px;                    /*spazio tra il motto e la barra */           
+    background-color: limegreen;      /*colore della barra */
+    padding: 10px;                      /*spazio tra il contenuto e il bordo di un elemento*/
+    text-align: center;                 /*posizione del testo */
+    width: auto;                        /*Imposta la larghezza di un elemento*/
+}
+
+img {
+    display: block;                     /*incide sulla struttura degli elementi, in questo caso settato su block*/
+    margin-left: auto;                  /*margini*/
+    margin-right: auto;
+    width: 200px;
+    margin-top: 80px;                   
+  }
+
+/*qui ho impostato le caratteristiche del motto*/
+h1{
+    text-align: center;                 
+    color: limegreen;                 /*colore della testo */
+    margin-bottom: auto;                
+}
+
+/* qui ho impostato la spaziatura tra gli elementi con tag "p" e l'elemento sopra*/
+p{
+   margin-top: 1px;                     
+}
+
+/*qui ho usato un selettore avanzato per dare il colore al testo*/
+.gino, #user{
+    color: white;                   
+ }
+
+
+ /*qui ho usato un selettore avanzato per poter affiancare la checkbox al testo */
+.gino section h2, .mike section h2, .fede section h2{
+    display: inline-block;
+}
+
+/* caratteristiche dei rettangoli*/
+.rounded-box_gino {
+    width: 300px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px; /* Questo imposta il raggio di arrotondamento dei bordi */
+    
+}
+
+.rounded-box_mike {
+    width: 600px;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px; 
+    
+}
+
+.rounded-box_fede {
+    width: 90px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px; 
+}
+
+/*caratteristiche del container*/
+.container{
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, 0.6) ;       /*qui ho impostato la opacità*/
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 120px;
+    padding-top: 20px;
+
+}
+
+
